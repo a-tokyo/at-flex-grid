@@ -2,7 +2,6 @@
 @mixin flex-basis($value) {
     flex-basis: $value;
     width: $value;
-    -ms-flex-preferred-size: $value;
 }
 @mixin at-12grid-col-defaults() {
     box-sizing: border-box;
