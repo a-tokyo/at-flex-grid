@@ -183,51 +183,51 @@
 }
 
 .at-col-xs-1 {
-    @include flex-basis(8.33333333%);
+    @include flex-basis(percentage(1/12));
 }
 
 .at-col-xs-2 {
-    @include flex-basis(16.66666667%);
+    @include flex-basis(percentage(2/12));
 }
 
 .at-col-xs-3 {
-    @include flex-basis(25%);
+    @include flex-basis(percentage(3/12));
 }
 
 .at-col-xs-4 {
-    @include flex-basis(33.33333333%);
+    @include flex-basis(percentage(4/12));
 }
 
 .at-col-xs-5 {
-    @include flex-basis(41.66666667%);
+    @include flex-basis(percentage(5/12));
 }
 
 .at-col-xs-6 {
-    @include flex-basis(50%);
+    @include flex-basis(percentage(6/12));
 }
 
 .at-col-xs-7 {
-    @include flex-basis(58.33333333%);
+    @include flex-basis(percentage(7/12));
 }
 
 .at-col-xs-8 {
-    @include flex-basis(66.66666667%);
+    @include flex-basis(percentage(8/12));
 }
 
 .at-col-xs-9 {
-    @include flex-basis(75%);
+    @include flex-basis(percentage(9/12));
 }
 
 .at-col-xs-10 {
-    @include flex-basis(83.33333333%);
+    @include flex-basis(percentage(10/12));
 }
 
 .at-col-xs-11 {
-    @include flex-basis(91.66666667%);
+    @include flex-basis(percentage(11/12));
 }
 
 .at-col-xs-12 {
-    @include flex-basis(100%);
+    @include flex-basis(percentage(12/12));
 }
 
 .at-col-xs-offset-0 {
@@ -235,47 +235,47 @@
 }
 
 .at-col-xs-offset-1 {
-    margin-left: 8.33333333%;
+    margin-left: percentage(1/12);
 }
 
 .at-col-xs-offset-2 {
-    margin-left: 16.66666667%;
+    margin-left: percentage(2/12);
 }
 
 .at-col-xs-offset-3 {
-    margin-left: 25%;
+    margin-left: percentage(3/12);
 }
 
 .at-col-xs-offset-4 {
-    margin-left: 33.33333333%;
+    margin-left: percentage(4/12);
 }
 
 .at-col-xs-offset-5 {
-    margin-left: 41.66666667%;
+    margin-left: percentage(5/12);
 }
 
 .at-col-xs-offset-6 {
-    margin-left: 50%;
+    margin-left: percentage(6/12);
 }
 
 .at-col-xs-offset-7 {
-    margin-left: 58.33333333%;
+    margin-left: percentage(7/12);
 }
 
 .at-col-xs-offset-8 {
-    margin-left: 66.66666667%;
+    margin-left: percentage(8/12);
 }
 
 .at-col-xs-offset-9 {
-    margin-left: 75%;
+    margin-left: percentage(9/12);
 }
 
 .at-col-xs-offset-10 {
-    margin-left: 83.33333333%;
+    margin-left: percentage(10/12);
 }
 
 .at-col-xs-offset-11 {
-    margin-left: 91.66666667%;
+    margin-left: percentage(11/12);
 }
 
 .at-start-xs {
@@ -328,51 +328,51 @@
     }
 
     .at-col-sm-1 {
-        @include flex-basis(8.33333333%);
+        @include flex-basis(percentage(1/12));
     }
 
     .at-col-sm-2 {
-        @include flex-basis(16.66666667%);
+        @include flex-basis(percentage(2/12));
     }
 
     .at-col-sm-3 {
-        @include flex-basis(25%);
+        @include flex-basis(percentage(3/12));
     }
 
     .at-col-sm-4 {
-        @include flex-basis(33.33333333%);
+        @include flex-basis(percentage(4/12));
     }
 
     .at-col-sm-5 {
-        @include flex-basis(41.66666667%);
+        @include flex-basis(percentage(5/12));
     }
 
     .at-col-sm-6 {
-        @include flex-basis(50%);
+        @include flex-basis(percentage(6/12));
     }
 
     .at-col-sm-7 {
-        @include flex-basis(58.33333333%);
+        @include flex-basis(percentage(7/12));
     }
 
     .at-col-sm-8 {
-        @include flex-basis(66.66666667%);
+        @include flex-basis(percentage(8/12));
     }
 
     .at-col-sm-9 {
-        @include flex-basis(75%);
+        @include flex-basis(percentage(9/12));
     }
 
     .at-col-sm-10 {
-        @include flex-basis(83.33333333%);
+        @include flex-basis(percentage(10/12));
     }
 
     .at-col-sm-11 {
-        @include flex-basis(91.66666667%);
+        @include flex-basis(percentage(11/12));
     }
 
     .at-col-sm-12 {
-        @include flex-basis(100%);
+        @include flex-basis(percentage(12/12));
     }
 
     .at-col-sm-offset-0 {
@@ -380,47 +380,47 @@
     }
 
     .at-col-sm-offset-1 {
-        margin-left: 8.33333333%;
+        margin-left: percentage(1/12);
     }
 
     .at-col-sm-offset-2 {
-        margin-left: 16.66666667%;
+        margin-left: percentage(2/12);
     }
 
     .at-col-sm-offset-3 {
-        margin-left: 25%;
+        margin-left: percentage(3/12);
     }
 
     .at-col-sm-offset-4 {
-        margin-left: 33.33333333%;
+        margin-left: percentage(4/12);
     }
 
     .at-col-sm-offset-5 {
-        margin-left: 41.66666667%;
+        margin-left: percentage(5/12);
     }
 
     .at-col-sm-offset-6 {
-        margin-left: 50%;
+        margin-left: percentage(6/12);
     }
 
     .at-col-sm-offset-7 {
-        margin-left: 58.33333333%;
+        margin-left: percentage(7/12);
     }
 
     .at-col-sm-offset-8 {
-        margin-left: 66.66666667%;
+        margin-left: percentage(8/12);
     }
 
     .at-col-sm-offset-9 {
-        margin-left: 75%;
+        margin-left: percentage(9/12);
     }
 
     .at-col-sm-offset-10 {
-        margin-left: 83.33333333%;
+        margin-left: percentage(10/12);
     }
 
     .at-col-sm-offset-11 {
-        margin-left: 91.66666667%;
+        margin-left: percentage(11/12);
     }
 
     .at-start-sm {
@@ -479,51 +479,51 @@
     }
 
     .at-col-md-1 {
-        @include flex-basis(8.33333333%);
+        @include flex-basis(percentage(1/12));
     }
 
     .at-col-md-2 {
-        @include flex-basis(16.66666667%);
+        @include flex-basis(percentage(2/12));
     }
 
     .at-col-md-3 {
-        @include flex-basis(25%);
+        @include flex-basis(percentage(3/12));
     }
 
     .at-col-md-4 {
-        @include flex-basis(33.33333333%);
+        @include flex-basis(percentage(4/12));
     }
 
     .at-col-md-5 {
-        @include flex-basis(41.66666667%);
+        @include flex-basis(percentage(5/12));
     }
 
     .at-col-md-6 {
-        @include flex-basis(50%);
+        @include flex-basis(percentage(6/12));
     }
 
     .at-col-md-7 {
-        @include flex-basis(58.33333333%);
+        @include flex-basis(percentage(7/12));
     }
 
     .at-col-md-8 {
-        @include flex-basis(66.66666667%);
+        @include flex-basis(percentage(8/12));
     }
 
     .at-col-md-9 {
-        @include flex-basis(75%);
+        @include flex-basis(percentage(9/12));
     }
 
     .at-col-md-10 {
-        @include flex-basis(83.33333333%);
+        @include flex-basis(percentage(10/12));
     }
 
     .at-col-md-11 {
-        @include flex-basis(91.66666667%);
+        @include flex-basis(percentage(11/12));
     }
 
     .at-col-md-12 {
-        @include flex-basis(100%);
+        @include flex-basis(percentage(12/12));
     }
 
     .at-col-md-offset-0 {
@@ -531,47 +531,47 @@
     }
 
     .at-col-md-offset-1 {
-        margin-left: 8.33333333%;
+        margin-left: percentage(1/12);
     }
 
     .at-col-md-offset-2 {
-        margin-left: 16.66666667%;
+        margin-left: percentage(2/12);
     }
 
     .at-col-md-offset-3 {
-        margin-left: 25%;
+        margin-left: percentage(3/12);
     }
 
     .at-col-md-offset-4 {
-        margin-left: 33.33333333%;
+        margin-left: percentage(4/12);
     }
 
     .at-col-md-offset-5 {
-        margin-left: 41.66666667%;
+        margin-left: percentage(5/12);
     }
 
     .at-col-md-offset-6 {
-        margin-left: 50%;
+        margin-left: percentage(6/12);
     }
 
     .at-col-md-offset-7 {
-        margin-left: 58.33333333%;
+        margin-left: percentage(7/12);
     }
 
     .at-col-md-offset-8 {
-        margin-left: 66.66666667%;
+        margin-left: percentage(8/12);
     }
 
     .at-col-md-offset-9 {
-        margin-left: 75%;
+        margin-left: percentage(9/12);
     }
 
     .at-col-md-offset-10 {
-        margin-left: 83.33333333%;
+        margin-left: percentage(10/12);
     }
 
     .at-col-md-offset-11 {
-        margin-left: 91.66666667%;
+        margin-left: percentage(11/12);
     }
 
     .at-start-md {
@@ -626,51 +626,51 @@
     }
 
     .at-col-lg-1 {
-        @include flex-basis(8.33333333%);
+        @include flex-basis(percentage(1/12));
     }
 
     .at-col-lg-2 {
-        @include flex-basis(16.66666667%);
+        @include flex-basis(percentage(2/12));
     }
 
     .at-col-lg-3 {
-        @include flex-basis(25%);
+        @include flex-basis(percentage(3/12));
     }
 
     .at-col-lg-4 {
-        @include flex-basis(33.33333333%);
+        @include flex-basis(percentage(4/12));
     }
 
     .at-col-lg-5 {
-        @include flex-basis(41.66666667%);
+        @include flex-basis(percentage(5/12));
     }
 
     .at-col-lg-6 {
-        @include flex-basis(50%);
+        @include flex-basis(percentage(6/12));
     }
 
     .at-col-lg-7 {
-        @include flex-basis(58.33333333%);
+        @include flex-basis(percentage(7/12));
     }
 
     .at-col-lg-8 {
-        @include flex-basis(66.66666667%);
+        @include flex-basis(percentage(8/12));
     }
 
     .at-col-lg-9 {
-        @include flex-basis(75%);
+        @include flex-basis(percentage(9/12));
     }
 
     .at-col-lg-10 {
-        @include flex-basis(83.33333333%);
+        @include flex-basis(percentage(10/12));
     }
 
     .at-col-lg-11 {
-        @include flex-basis(91.66666667%);
+        @include flex-basis(percentage(11/12));
     }
 
     .at-col-lg-12 {
-        @include flex-basis(100%);
+        @include flex-basis(percentage(12/12));
     }
 
     .at-col-lg-offset-0 {
@@ -678,47 +678,47 @@
     }
 
     .at-col-lg-offset-1 {
-        margin-left: 8.33333333%;
+        margin-left: percentage(1/12);
     }
 
     .at-col-lg-offset-2 {
-        margin-left: 16.66666667%;
+        margin-left: percentage(2/12);
     }
 
     .at-col-lg-offset-3 {
-        margin-left: 25%;
+        margin-left: percentage(3/12);
     }
 
     .at-col-lg-offset-4 {
-        margin-left: 33.33333333%;
+        margin-left: percentage(4/12);
     }
 
     .at-col-lg-offset-5 {
-        margin-left: 41.66666667%;
+        margin-left: percentage(5/12);
     }
 
     .at-col-lg-offset-6 {
-        margin-left: 50%;
+        margin-left: percentage(6/12);
     }
 
     .at-col-lg-offset-7 {
-        margin-left: 58.33333333%;
+        margin-left: percentage(7/12);
     }
 
     .at-col-lg-offset-8 {
-        margin-left: 66.66666667%;
+        margin-left: percentage(8/12);
     }
 
     .at-col-lg-offset-9 {
-        margin-left: 75%;
+        margin-left: percentage(9/12);
     }
 
     .at-col-lg-offset-10 {
-        margin-left: 83.33333333%;
+        margin-left: percentage(10/12);
     }
 
     .at-col-lg-offset-11 {
-        margin-left: 91.66666667%;
+        margin-left: percentage(11/12);
     }
 
     .at-start-lg {
@@ -775,51 +775,51 @@
     }
 
     .at-col-xlg-1 {
-        @include flex-basis(8.33333333%);
+        @include flex-basis(percentage(1/12));
     }
 
     .at-col-xlg-2 {
-        @include flex-basis(16.66666667%);
+        @include flex-basis(percentage(2/12));
     }
 
     .at-col-xlg-3 {
-        @include flex-basis(25%);
+        @include flex-basis(percentage(3/12));
     }
 
     .at-col-xlg-4 {
-        @include flex-basis(33.33333333%);
+        @include flex-basis(percentage(4/12));
     }
 
     .at-col-xlg-5 {
-        @include flex-basis(41.66666667%);
+        @include flex-basis(percentage(5/12));
     }
 
     .at-col-xlg-6 {
-        @include flex-basis(50%);
+        @include flex-basis(percentage(6/12));
     }
 
     .at-col-xlg-7 {
-        @include flex-basis(58.33333333%);
+        @include flex-basis(percentage(7/12));
     }
 
     .at-col-xlg-8 {
-        @include flex-basis(66.66666667%);
+        @include flex-basis(percentage(8/12));
     }
 
     .at-col-xlg-9 {
-        @include flex-basis(75%);
+        @include flex-basis(percentage(9/12));
     }
 
     .at-col-xlg-10 {
-        @include flex-basis(83.33333333%);
+        @include flex-basis(percentage(10/12));
     }
 
     .at-col-xlg-11 {
-        @include flex-basis(91.66666667%);
+        @include flex-basis(percentage(11/12));
     }
 
     .at-col-xlg-12 {
-        @include flex-basis(100%);
+        @include flex-basis(percentage(12/12));
     }
 
     .at-col-xlg-offset-0 {
@@ -827,47 +827,47 @@
     }
 
     .at-col-xlg-offset-1 {
-        margin-left: 8.33333333%;
+        margin-left: percentage(1/12);
     }
 
     .at-col-xlg-offset-2 {
-        margin-left: 16.66666667%;
+        margin-left: percentage(2/12);
     }
 
     .at-col-xlg-offset-3 {
-        margin-left: 25%;
+        margin-left: percentage(3/12);
     }
 
     .at-col-xlg-offset-4 {
-        margin-left: 33.33333333%;
+        margin-left: percentage(4/12);
     }
 
     .at-col-xlg-offset-5 {
-        margin-left: 41.66666667%;
+        margin-left: percentage(5/12);
     }
 
     .at-col-xlg-offset-6 {
-        margin-left: 50%;
+        margin-left: percentage(6/12);
     }
 
     .at-col-xlg-offset-7 {
-        margin-left: 58.33333333%;
+        margin-left: percentage(7/12);
     }
 
     .at-col-xlg-offset-8 {
-        margin-left: 66.66666667%;
+        margin-left: percentage(8/12);
     }
 
     .at-col-xlg-offset-9 {
-        margin-left: 75%;
+        margin-left: percentage(9/12);
     }
 
     .at-col-xlg-offset-10 {
-        margin-left: 83.33333333%;
+        margin-left: percentage(10/12);
     }
 
     .at-col-xlg-offset-11 {
-        margin-left: 91.66666667%;
+        margin-left: percentage(11/12);
     }
 
     .at-start-xlg {
