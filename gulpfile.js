@@ -9,6 +9,8 @@ var connect = require('gulp-connect');
 var autoprefixer = require('gulp-autoprefixer');
 var del = require('del');
 var runSequence = require('run-sequence');
+var cssnano = require('gulp-cssnano');
+var rename = require('gulp-rename');
 
 gulp.task('default', ['build']);
 
@@ -45,8 +47,19 @@ gulp.task('clean:dist', function() {
 });
 
 gulp.task('build-sass', function() {
-  gulp.src('src/scss/at-flex.scss') // Gets all files ending with .scss in app/scss and children dirs
+  // Regular File
+  gulp.src('src/scss/at-flex.scss')
   .pipe(sass())
+  .pipe(autoprefixer({
+          browsers: ['last 5 versions'],
+          cascade: false
+      }))
+  .pipe(gulp.dest('dist/'));
+  // Minified File
+  gulp.src('src/scss/at-flex.scss')
+  .pipe(sass())
+  .pipe(cssnano())
+  .pipe(rename({suffix: '.min'}))
   .pipe(autoprefixer({
           browsers: ['last 5 versions'],
           cascade: false

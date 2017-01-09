@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "A lightweight CSS3 flexbox grid with extra flex functionalities.",
   "scripts": {},
-  "repository":"http://github.com/A-Tokyo/at-flex.git",
+  "repository": "http://github.com/A-Tokyo/at-flex.git",
   "keywords": [
     "flex",
     "flexbox",
@@ -19,6 +19,8 @@
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-connect": "^5.0.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.0.0",
     "run-sequence": "^1.2.2"
   }
