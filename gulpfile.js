@@ -4,13 +4,13 @@
 * tokyo@dreidev.com
 */
 var gulp = require('gulp');
-// Requires the gulp-sass plugin
 var sass = require('gulp-sass');
 var connect = require('gulp-connect');
+var autoprefixer = require('gulp-autoprefixer');
+var del = require('del');
+var runSequence = require('run-sequence');
 
-gulp.task('default', function() {
-  // place code for your default task here
-});
+gulp.task('default', ['build']);
 
 gulp.task('html', function () {
   gulp.src('src/*.html')
@@ -39,3 +39,21 @@ gulp.task('watch', function (){
 });
 
 gulp.task('start', ['sass', 'watch', 'server']);
+
+gulp.task('clean:dist', function() {
+  return del.sync('dist');
+});
+
+gulp.task('build', function (callback) {
+  runSequence('clean:dist',
+    function() {
+        gulp.src('src/scss/at-flex.scss') // Gets all files ending with .scss in app/scss and children dirs
+        .pipe(sass())
+        .pipe(autoprefixer({
+                browsers: ['last 5 versions'],
+                cascade: false
+            }))
+        .pipe(gulp.dest('dist/'));
+    }
+  )
+});
