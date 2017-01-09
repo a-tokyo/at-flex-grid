@@ -7,7 +7,7 @@
     "start": "gulp start",
     "build": "gulp build"
   },
-  "repository": "http://github.com/A-Tokyo/at-flex.git",
+  "repository": "http://github.com/A-Tokyo/at-flex-grid.git",
   "keywords": [
     "flex",
     "flexbox",
