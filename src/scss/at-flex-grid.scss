@@ -1,4 +1,4 @@
-@import './_at-flex-variables.scss';
+@import './_at-flex-grid-variables.scss';
 @mixin flex-basis($value) {
     flex-basis: $value;
     width: $value;

@@ -1,8 +1,8 @@
 {
-  "name": "at-flex",
+  "name": "at-flex-grid",
   "version": "0.1.0",
   "description": "A lightweight CSS3 flexbox grid with extra flex functionalities.",
-  "main": "dist/at-flex.css",
+  "main": "dist/at-flex-grid.css",
   "scripts": {
     "start": "gulp start",
     "build": "gulp build"
