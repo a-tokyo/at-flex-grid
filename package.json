@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A lightweight CSS3 flexbox grid with extra flex functionalities.",
   "scripts": {},
+  "repository":"http://github.com/A-Tokyo/at-flex.git",
   "keywords": [
     "flex",
     "flexbox",
