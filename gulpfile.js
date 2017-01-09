@@ -44,16 +44,18 @@ gulp.task('clean:dist', function() {
   return del.sync('dist');
 });
 
+gulp.task('build-sass', function() {
+  gulp.src('src/scss/at-flex.scss') // Gets all files ending with .scss in app/scss and children dirs
+  .pipe(sass())
+  .pipe(autoprefixer({
+          browsers: ['last 5 versions'],
+          cascade: false
+      }))
+  .pipe(gulp.dest('dist/'));
+});
+
 gulp.task('build', function (callback) {
   runSequence('clean:dist',
-    function() {
-        gulp.src('src/scss/at-flex.scss') // Gets all files ending with .scss in app/scss and children dirs
-        .pipe(sass())
-        .pipe(autoprefixer({
-                browsers: ['last 5 versions'],
-                cascade: false
-            }))
-        .pipe(gulp.dest('dist/'));
-    }
+    ['build-sass']
   )
 });
