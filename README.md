@@ -13,7 +13,7 @@ The Grid works flawlessly along other grids like bootstrap or foundation because
     - download at-flex-grid.css
     - link it in your html using ``<link rel="stylesheet" href="/pathToFile/at-flex-grid.css">``
 
-## Contribution
+## Contribution and Customization
 
 ### Getting Started
 - To start the development server on [localhost:9001](http://localhost:9001)
