@@ -7,8 +7,8 @@
 @mixin at-12grid-col-defaults() {
     box-sizing: border-box;
     flex: 0 0 auto;
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: $padding-col-x;
+    padding-left: $padding-col-x;
     max-width: 100%;
     @include flex-basis(100%);
 }
@@ -17,8 +17,8 @@
 .at-container-fluid {
     margin-right: auto;
     margin-left: auto;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding-right: $padding-container-x;
+    padding-left: $padding-container-x;
     overflow: auto;
 }
 
@@ -33,8 +33,8 @@
     flex: 0 1 auto;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-right: -0.5rem;
-    margin-left: -0.5rem;
+    margin-right: -$padding-col-x;
+    margin-left: -$padding-col-x;
 }
 
 .at-row.at-reverse {
