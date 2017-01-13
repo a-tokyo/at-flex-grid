@@ -1,0 +1,28 @@
+{
+  "name": "at-flex-grid",
+  "description": "A lightweight CSS3 flexbox grid with extra flex functionalities.",
+  "main": "dist/at-flex-grid.css",
+  "authors": [
+    "Ahmed Tarek"
+  ],
+  "repository": "http://github.com/A-Tokyo/at-flex-grid.git",
+  "license": "MIT",
+  "keywords": [
+    "flex",
+    "flexbox",
+    "sass",
+    "css",
+    "style",
+    "grid"
+  ],
+  "homepage": "https://github.com/A-Tokyo/at-flex",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src/css",
+    "gulpfile.js"
+  ]
+}
