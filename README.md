@@ -9,8 +9,10 @@ In Addition to the 12 column grid flexbox features are provided wrapped in class
 The Grid works flawlessly along other grids like bootstrap or foundation because of the prefix in the naming convention.
 
 ## Getting Started
-- To install at-flex-grid as a dependency
-    - run ``npm i --save at-flex-grid``
+- To install at-flex-grid as a npm dependency
+    - run ``npm install --save at-flex-grid``
+- To install at-flex-grid as a bower component
+    - run ``bower install --save at-flex-grid``
 - To simply link the css file
     - link it in your html using ``<link rel="stylesheet" href="/pathToFile/at-flex-grid.css">``
 - If you want the bootstrap3 compatible version out of the box
