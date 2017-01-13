@@ -15,11 +15,46 @@ The Grid works flawlessly along other grids like bootstrap or foundation because
     - link it in your html using ``<link rel="stylesheet" href="/pathToFile/at-flex-grid.css">``
 - If you want the bootstrap3 compatible version out of the box
     - link it in your html using ``<link rel="stylesheet" href="/pathToFile/at-flex-grid-bootstrap3.css">``
+- If your prefer SASS/SCSS or you would like to customize the file
+    - import it in your SCSS file using ``@import 'pathToFile/at-flex-grid-grid.scss';``
+
 
 ## Features
 - A 12 column grid using flexbox
 - Flexbox features for each break point; i.e: class="at-center-xs"
 - Bootstrap3 compatible version is supported under the name at-flex-grid-bootstrap3.css, utilizing the same breakpoints and container widths of Bootstrap version 3
+
+## Customization
+To customize the grid breakpoints, container widths, gutters and so on, Include the at-flex-grid.scss in your scss file and edit the following variables to suit your preferences.
+```
+/*
+ * Grid Breakpoints
+ */
+// Extra small screen / phone
+$grid-breakpoint-xs: 0;
+// Small screen / phone
+$grid-breakpoint-sm: 576px;
+// Medium screen / tablet
+$grid-breakpoint-md: 768px;
+// Large screen / desktop
+$grid-breakpoint-lg: 992px;
+// Extra large screen / wide desktop
+$grid-breakpoint-xl: 1200px;
+
+/*
+ * Container widths
+ */
+$container-max-width-sm: 540px;
+$container-max-width-md: 720px;
+$container-max-width-lg: 960px;
+$container-max-width-xl: 1140px;
+
+/*
+ * Gutters and spacing
+ */
+$padding-col-x: 0.5rem;
+$padding-container-x: 1rem;
+```
 
 
 ## Contribution and Customization
