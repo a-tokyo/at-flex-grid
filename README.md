@@ -12,8 +12,15 @@ The Grid works flawlessly along other grids like bootstrap or foundation because
 - To install at-flex-grid as a dependency
     - run ``npm i --save at-flex-grid``
 - To simply link the css file
-    - download at-flex-grid.css
     - link it in your html using ``<link rel="stylesheet" href="/pathToFile/at-flex-grid.css">``
+- If you want the bootstrap3 compatible version out of the box
+    - link it in your html using ``<link rel="stylesheet" href="/pathToFile/at-flex-grid-bootstrap3.css">``
+
+## Features
+- A 12 column grid using flexbox
+- Flexbox features for each break point; i.e: class="at-center-xs"
+- Bootstrap3 compatible version is supported under the name at-flex-grid-bootstrap3.css, utilizing the same breakpoints and container widths of Bootstrap version 3
+
 
 ## Contribution and Customization
 

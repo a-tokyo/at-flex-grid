@@ -48,7 +48,7 @@ gulp.task('clean:dist', function() {
 
 gulp.task('build-sass', function() {
   // Regular File
-  gulp.src('src/scss/at-flex-grid.scss')
+  gulp.src(['src/scss/**/[^_]*.scss', '!src/scss/demo/*'])
   .pipe(sass())
   .pipe(autoprefixer({
           browsers: ['last 5 versions'],
@@ -56,7 +56,7 @@ gulp.task('build-sass', function() {
       }))
   .pipe(gulp.dest('dist/'));
   // Minified File
-  gulp.src('src/scss/at-flex-grid.scss')
+  gulp.src(['src/scss/**/[^_]*.scss', '!src/scss/demo/*'])
   .pipe(sass())
   .pipe(cssnano())
   .pipe(rename({suffix: '.min'}))
