@@ -1,6 +1,6 @@
 {
   "name": "at-flex-grid",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A lightweight CSS3 flexbox grid with extra flex functionalities.",
   "main": "dist/at-flex-grid.css",
   "scripts": {
