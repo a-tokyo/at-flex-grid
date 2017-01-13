@@ -1,7 +1,7 @@
 # at-flex-grid
 A lightweight CSS3 flexbox grid with extra flex functionalities.
 
-[![npm version](https://badge.fury.io/js/at-flex-grid.svg)](https://badge.fury.io/js/at-flex-grid)
+[![npm version](https://badge.fury.io/js/at-flex-grid.svg)](https://badge.fury.io/js/at-flex-grid) [![Bower version](https://badge.fury.io/bo/at-flex-grid.svg)](https://badge.fury.io/bo/at-flex-grid)
 
 ## Description
 at-flex-grid is a simple lightweight 12 column grid implemented using CSS3 flexbox specifications.
